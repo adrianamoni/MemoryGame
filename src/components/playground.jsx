@@ -12,8 +12,7 @@ import {
   countdown,
   sessionOn,
   sessionOff,
-  gameSummary,
-  gameRestart
+  gameSummary
 } from "./../actions/";
 
 class PlayGround extends Component {
@@ -148,7 +147,7 @@ class PlayGround extends Component {
                 <button
                   type="button"
                   className="btn btn-primary btn-lg btn-block mt-5"
-                  onClick={() => this.props.gameRestart()}
+                  onClick={() => console.log("SORRY, FUNCTION NOT ADDED YET.")}
                 >
                   Start a new game
                 </button>
@@ -198,7 +197,6 @@ export default connect(
     countdown,
     sessionOn,
     sessionOff,
-    gameSummary,
-    gameRestart
+    gameSummary
   }
 )(PlayGround);

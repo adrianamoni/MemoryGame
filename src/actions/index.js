@@ -33,6 +33,3 @@ export const sessionOff = () => dispatch => {
 export const gameSummary = () => dispatch => {
   dispatch({ type: "GAME_SUMMARY" });
 };
-export const gameRestart = () => dispatch => {
-  dispatch({ type: "RESET" });
-};

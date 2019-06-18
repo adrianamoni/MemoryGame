@@ -6,7 +6,6 @@ import updateScore from "./updateScoreReducer";
 import countdown from "./countdownReducer";
 import gameSession from "./gameSessionReducer";
 import gameSummary from "./gameSummaryReducer";
-import restartGameReducer from "./restartGameReducer";
 
 export default combineReducers({
   contributors: contributorsReducer,
@@ -15,6 +14,5 @@ export default combineReducers({
   score: updateScore,
   countdown: countdown,
   session: gameSession,
-  summary: gameSummary,
-  restartGame: restartGameReducer
+  summary: gameSummary
 });

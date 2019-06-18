@@ -1,5 +1,5 @@
 const INITIAL_STATE = {
-  countdown: 5
+  countdown: 60
 };
 
 export default (state = INITIAL_STATE, action) => {
